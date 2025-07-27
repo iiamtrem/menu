@@ -55,8 +55,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="https://i.pinimg.com/736x/7a/20/81/7a208133510c0d28c56f6cda94831258.jpg" viewBox="0 0 100 100"><path d="M10 50 Q 25 30, 40 50 T 70 50 T 100 50" stroke="%238c5a2b" stroke-width="5" fill="none"/><path d="M10 65 Q 25 45, 40 65 T 70 65 T 100 65" stroke="%238c5a2b" stroke-width="5" fill="none"/></svg>');
-    background-size: 60%;
+    background-image: url('https://i.pinimg.com/736x/7a/20/81/7a208133510c0d28c56f6cda94831258.jpg');
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -114,7 +114,13 @@ body {
     font-weight: 600;
     font-size: 1.1rem;
     cursor: pointer;
-        }
+}
+
+.price:hover {
+    background-color: #227055;
+    box-shadow: 0 5px 15px rgba(72, 189, 146, 0.8);
+    transform: translateY(-3px);
+}
         
 .beverage-grid {
      display: grid;
