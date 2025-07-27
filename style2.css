@@ -1,11 +1,11 @@
 
 :root {
-    --bg-color: #f0fdf4; /* nền xanh lá nhạt */
-    --card-color: #e3f9e5; /* thẻ hơi xanh lá sữa */
-    --text-primary: #1a3d2f; /* xanh rêu đậm, dễ nhìn */
-    --text-secondary: #5b7764; /* xanh pastel nhẹ cho mô tả */
-    --accent-color-dark: #6bc58e; /* xanh mint đậm */
-    --accent-color-light: #b2e8c3; /* xanh mint nhạt pastel */
+    --bg-color: #f0fdf4;
+    --card-color: #e3f9e5;
+    --text-primary: #1a3d2f;
+    --text-secondary: #5b7764;
+    --accent-color-dark: #6bc58e;
+    --accent-color-light: #b2e8c3;
 }
 
 
@@ -190,7 +190,6 @@ body {
 }
 
 /* responsive */
-/* Mặc định đã ổn trên desktop, chỉnh responsive cho màn nhỏ */
 
 @media (max-width: 900px) {
   body {
@@ -233,7 +232,7 @@ body {
   .beverage-card img {
     width: 50px;
     height: 50px;
-    margin-left: auto; /* bỏ margin trái 80px, căn giữa */
+    margin-left: auto;
     margin-right: auto;
   }
 
