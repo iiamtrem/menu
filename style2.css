@@ -1,4 +1,3 @@
-
 :root {
     --bg-color: #f0fdf4;
     --card-color: #e3f9e5;
@@ -8,6 +7,11 @@
     --accent-color-light: #b2e8c3;
 }
 
+.header {
+    background-color: #d9fdd3;
+    padding: 20px;
+    border-radius: 12px;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -15,6 +19,13 @@ body {
     color: var(--text-primary);
     margin: 0;
     padding: 40px;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
 .container {
@@ -62,9 +73,12 @@ body {
 }
 
 .section-title {
+    color: #2a593e;
     font-size: 2rem;
     font-weight: 700;
+    border-left: 6px solid var(--accent-color-dark);
     margin-bottom: 30px;
+    padding-left: 10px;
 }
 
 .menu-grid {
@@ -83,6 +97,13 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+.menu-card.special {
+    border: 4px solid #f27457;
+    background-color: #fff2ed;
+    box-shadow: 0 0 20px rgba(255, 102, 77, 0.4);
+}
+
+
 .menu-card img {
     width: 150px;
     height: 150px;
@@ -93,6 +114,7 @@ body {
    }
 
 .menu-card h3 {
+  color: #3a703d;
     font-size: 1.5rem;
     margin: 0 0 10px 0;
     font-weight: 600;
@@ -129,8 +151,9 @@ body {
 }
 
 .beverage-card {
-    background-color: var(--card-color);
-    border-radius: 20px;
+    background-color: #c9efda;
+    border-radius: 20px ;
+  
     padding: 15px;
     text-align: center;
     display: flex;
@@ -149,6 +172,7 @@ body {
 }
 
 .beverage-card h3 {
+  color: #577178;
     font-size: 1.1rem;
     margin: 0 0 5px 0;
 }
@@ -174,13 +198,16 @@ body {
 .footer {
     margin-top: 50px;
     padding-top: 30px;
-    border-top: 1px solid #444;
+    padding: 20px;
+    border-top: 3px solid var(--accent-color-dark);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
     flex-wrap: wrap;
-    color: var(--text-secondary);
+    color: #2e493a;
+    background-color: #d2f2e0;
+    border-radius: 10px;
 }
 
 .footer-item {
@@ -191,7 +218,7 @@ body {
 }
 
 .footer-item i {
-    color: var(--accent-color-light);
+    color: var(--accent-color-dark);
     font-size: 1.2rem;
 }
 
